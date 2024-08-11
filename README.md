@@ -5,7 +5,7 @@
 <img src="https://github.com/Git-baid/MinecraftOreDetection/blob/main/Minecraft%20Ore%20Detection%20(1).gif" width = 640>
 *Classify and localize Minecraft ores in real-time using a hand-made, hand-annotated, curated dataset of over 1,200 images*
 ## Introduction
-The goal of this project is to classify and localize minecraft ores in real-time from a stream of screenshots on a user’s computer. I started the project using the dataset in a COCO format, but later discovered the YOLO object detection framework which fit exactly what we were trying to accomplish much better and with less friction. The model is based on YOLOv8, a popular choice and evolution for object detection framework. The model is trained using a custom dataset of 1,211 hand annotated images of minecraft ores using [Roboflow.com](www.roboflow.com)’s custom dataset and annotation tools. 
+The goal of this project is to classify and localize minecraft ores in real-time from a stream of screenshots on a user’s computer. I started the project using the dataset in a COCO format, but later discovered the YOLO object detection framework which fit exactly what we were trying to accomplish much better and with less friction. The model is based on YOLOv8, a popular choice and evolution for object detection framework. The model is trained using a custom dataset of 1,211 hand annotated images of minecraft ores using [Roboflow.com](https://roboflow.com) 's custom dataset and annotation tools. 
 
 ## YOLOv8 Overview
 YOLOv8 is an evolution of the YOLO (You Only Look Once) family of object detection and segmentation models. YOLOv8 is designed to be fast, accurate, flexible, and easy to use.
